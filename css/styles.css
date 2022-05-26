@@ -682,7 +682,13 @@ margin-left: 0%;
 .solosubscriptores h4{
     font-size: 30px;
 }
-
+/* branded */
+.brandedresponsive{
+    display: none;
+}
+.brandedpc{
+    display: block;
+}
 @media (min-width: 576px) {
     .titulo h1 {
         font-size: 3rem;
@@ -733,6 +739,18 @@ margin-left: 0%;
     }
     .radiof img{
         margin-top: 10%;
+    }
+    .brandedresponsive{
+        display: block;
+    }
+    .brandedpc{
+        display: none;
+    }
+    .caracteristicas{
+        border-radius: 0%;
+    }
+    .caracteristicas h4{
+        font-size: 25px;
     }
     
 }
